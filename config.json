@@ -1,0 +1,39 @@
+{
+    "user_id_list": ["6260389617"],
+    "only_crawl_original": 0,
+    "since_date": "2024-10-01",
+    "end_date": "now",
+    "start_page": 1,
+    "page_weibo_count": 5,
+    "write_mode": ["csv"],
+    "original_pic_download": 0,
+    "retweet_pic_download": 0,
+    "original_video_download": 0,
+    "retweet_video_download": 0,
+    "original_live_photo_download": 0,
+    "retweet_live_photo_download": 0,
+    "download_comment": 0,
+    "comment_max_download_count": 100,
+    "download_repost": 0,
+    "repost_max_download_count": 100,
+    "user_id_as_folder_name": 0,
+    "remove_html_tag": 1,
+   "cookie": "SCF=AmlKVqmi1hQvXszrQqVWG6km4b3thvstt27kT_oG6ZHdQaDJ_GUPHrdZCZWakzMtrJHqNrc-yQado5I5iFIqRNM.; SUB=_2A25ENX4wDeRhGe9O6lMR8S_LzDuIHXVnS__4rDV6PUJbktANLXj4kW1NdNpqEDRBpiMS9qzazu40uswVULeYHwBk; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WFpS512zIOlDo7RzE2dj7V95NHD95Q4eh2peh2pS0MNWs4DqcjMi--NiK.Xi-2Ri--ciKnRi-zN1K5peK5peKMNS7tt; ALF=1767414624; _T_WM=2e60b0dd045f6af21160dfb1a072abb2; MLOGIN=1; WEIBOCN_FROM=1110105030; XSRF-TOKEN=6b78d8; M_WEIBOCN_PARAMS=launchid%3D10000360-page_H5%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E8%25BF%25AA%25E4%25B8%25BD%25E7%2583%25AD%25E5%25B7%25B4%26fid%3D100103type%253D1%2526q%253D%25E8%25BF%25AA%25E4%25B8%25BD%25E7%2583%25AD%25E5%25B7%25B4%26uicode%3D10000011; mweibo_short_token=66f3e48d6",
+
+    "random_wait_pages": [1, 2],
+    "random_wait_seconds": [15, 30],
+    "global_wait": [[100, 3600], [50, 2000]],
+    "mysql_config": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "123456",
+        "charset": "utf8mb4"
+    },
+    "store_binary_in_sqlite": 0,
+    "mongodb_URI": "mongodb://[username:password@]host[:port][/defaultauthdb[?options]]",
+    "post_config": {
+        "api_url": "",
+        "api_token": ""
+    }
+}
